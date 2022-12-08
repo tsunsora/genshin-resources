@@ -9,11 +9,13 @@
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
-    background-color: #cbd2dca6;
+    background-color: #cbd2dc4f;
     border: none;
-    border-radius: 50px;
+    border-radius: 500px;
     padding: 9px 25px;
-    margin: 20px;
+    margin: 20px auto;
+    width: 70%;
+    overflow: hidden;
   }
   
   .logo {
@@ -30,7 +32,7 @@
   .overlay__content a {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    color: #0a0a0a;
+    color: #ffffff;
     text-decoration: none;
   }
   
@@ -49,7 +51,7 @@
   .cta {
     margin-left: 20px;
     padding: 9px 25px;
-    background-color: rgba(231, 193, 148, 1);
+    background-color: rgb(204, 169, 125);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -57,7 +59,7 @@
   }
   
   .cta:hover {
-    background-color: rgba(231, 193, 148, 0.6);
+    background-color: rgba(204, 169, 125, 0.7);
   }
   
   /* Mobile Nav */
@@ -121,7 +123,7 @@
     }
   }
   
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 950px) {
     .nav__links,
     .cta {
       display: none;
