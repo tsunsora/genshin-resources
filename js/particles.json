@@ -1,0 +1,21 @@
+{
+  "particles": {
+    "number": {
+      "value": 100
+    },
+    "size": {
+      "value": 0
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "move": {
+      "attract": {
+        "enable": false
+      },
+      "connect": {
+        "enable": false
+      }
+    }
+  }
+}
